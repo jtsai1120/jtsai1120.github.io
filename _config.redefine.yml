@@ -113,13 +113,13 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/jujutsu_kaisen_bg.jpg # light mode
-    dark: /images/jujutsu_kaisen_bg.jpg # dark mode
+    light: /images/bg_1.jpg # light mode
+    dark: /images/bg_1.jpg # dark mode
   # Home banner title
   title: Home Banner
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: ["趕工中.."] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
@@ -152,16 +152,14 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
-      instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
-      twitter:  # your twitter URL
-      email:  # your email
+      github: https://github.com/jtsai1120 # your GitHub URL
+      discord: discordapp.com/users/746285164963037226
+      email: jtsai1120@gmail.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
