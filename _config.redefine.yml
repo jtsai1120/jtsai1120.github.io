@@ -25,9 +25,9 @@ defaults:
   # Favicon
   favicon: /images/redefine-favicon.svg
   # Site logo
-  logo: /images/yelan_logo.png
+  logo: /test_images/yelan_logo.png
   # Site avatar
-  avatar: /images/yelan_logo.png
+  avatar: /test_images/yelan_logo.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
