@@ -65,7 +65,7 @@ global:
   # Effects on mouse hover
   hover:
     shadow: true # shadow effect
-    scale: false # scale effect
+    scale: true # scale effect
   # Scroll progress
   scroll_progress:
     bar: false # progress bar
@@ -113,10 +113,10 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /images/jujutsu_kaisen_bg.jpg # light mode
+    dark: /images/jujutsu_kaisen_bg.jpg # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: Home Banner
   # Home banner subtitle
   subtitle:
     text: [] # subtitle text, array
