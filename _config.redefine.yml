@@ -159,7 +159,7 @@ home_banner:
     links:
       github: https://github.com/jtsai1120 # your GitHub URL
       discord: https://discordapp.com/users/746285164963037226
-      email: jtsai1120@gmail.com # your email
+      # email: jtsai1120@gmail.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -177,7 +177,7 @@ navbar:
   color:
     left: "#f78736" #left side 
     right: "#367df7"  #right side
-    transparency: 35 #percent (10-99)
+    transparency: 30 #percent (10-99)
   # Navbar width (usually no need to modify)
   width:
     home: 1200px #home page
@@ -196,16 +196,13 @@ navbar:
     Categories: 
       path: /categories 
       icon: fa-regular fa-folder # can be empt
-    # Status: 
-    #   path: https://status.ohevan.com/
-    #   icon: fa-regular fa-chart-bar
     Whoami: 
       icon: fa-regular fa-user
       submenus:
         Me: /about
         Github: https://github.com/jtsai1120
         discord: https://discordapp.com/users/746285164963037226
-        Blog: https://jtsai1120.github.io
+        # Blog: https://jtsai1120.github.io
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
@@ -233,15 +230,18 @@ home:
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      # Archives: 
-      #   path: /archives 
-      #   icon: fa-regular fa-archive # can be empty
-      # Tags: 
-      #   path: /tags 
-      #   icon: fa-regular fa-tags # can be empty
-      # Categories: 
-      #   path: /categories 
-      #   icon: fa-regular fa-folder # can be empty
+      Home: 
+        path: / 
+        icon: fa-regular fa-house # can be empty
+      Archives: 
+        path: /archives 
+        icon: fa-regular fa-archive # can be empty
+      Tags: 
+        path: /tags 
+        icon: fa-regular fa-tags # can be empty
+      Categories: 
+        path: /categories 
+        icon: fa-regular fa-folder # can be empty
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
@@ -252,7 +252,7 @@ home:
   # Article tags visibility
   tags:
     enable: true  # Whether to enable
-    limit: 3  # Max number of tags to display
+    limit: 5  # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -335,7 +335,7 @@ comment:
     # Waline comment system. See https://waline.js.org/
     waline:
       serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
-      lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
+      lang: zh-TW # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: wasd # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
       turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
@@ -375,11 +375,11 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2024/3/27 05:43:14
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
-  customize:
+  customize: 你说的对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
