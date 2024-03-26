@@ -7,13 +7,13 @@ title: jtsai1120's blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: jtsai1120
+language: zh
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://jtsai1120.github.io
+url: https://jtsai1120.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
