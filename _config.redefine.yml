@@ -113,8 +113,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/bg_1.jpg # light mode
-    dark: /images/bg_1.jpg # dark mode
+    light: /images/bg_1(improved).png # light mode
+    dark: /images/bg_1(improved).png # dark mode
   # Home banner title
   title: jtsai1120's blog
   # Home banner subtitle
@@ -159,7 +159,7 @@ home_banner:
     links:
       github: https://github.com/jtsai1120 # your GitHub URL
       discord: https://discordapp.com/users/746285164963037226
-      email: https://mailto:jtsai1120@gmail.com # your email
+      email: jtsai1120@gmail.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
